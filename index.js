@@ -6,7 +6,7 @@ const fs = require('fs');
 const hostname = '76.76.21.22';
 const port = 443;
 
-fs.readFile('index.html',(err, html) => {
+fs.readFile('index.json',(err, html) => {
 if (err) {
 	throw err;
 	}
