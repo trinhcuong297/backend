@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": ""
+    "test": "npm index.js"
   },
   "keywords": [
     "backend",
@@ -14,7 +14,8 @@
   "author": "Trinh Cuong",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
